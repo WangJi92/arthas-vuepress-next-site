@@ -42,17 +42,43 @@ export default defineUserConfig({
               selectLanguageName: 'English',
               navbar:[
                 {
+                    text: 'HOME PAGE',
+                    link: '/en/',
+                },
+                {
                   text: 'DOCS',
                   link: '/en/',
                 },
+                {
+                    text: 'DOWNLOAD',
+                    link: '/en/download',
+                },
+                {
+                    text: 'COMMUNITY',
+                    link: 'https://github.com/alibaba/arthas/issues',
+                },
+
+                
               ],
             },
             '/zh/': {
               selectLanguageName: '简体中文',
               navbar:[
                 {
+                    text: '首页',
+                    link: '/zh/',
+                },
+                {
                   text: '文档',
                   link: '/zh/',
+                },
+                {
+                    text: '下载',
+                    link: '/zh/download',
+                },
+                {
+                    text: '社区',
+                    link: 'https://github.com/alibaba/arthas/issues',
                 },
               ],
             },
