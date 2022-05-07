@@ -9,10 +9,10 @@ export default defineUserConfig({
   head:[['link', { rel: 'icon', href: '/arthas-log.png' }]],
   // 多语言配置
   locales:{
-       '${base}/en/': {
+       '/en/': {
         lang: 'en-US',
         title: 'arthas',
-         description: 'This will take effect under /en/ subpath',
+        description: 'This will take effect under /en/ subpath'
        },
        '/zh/': {
          lang: 'zh-CN',
@@ -34,5 +34,28 @@ export default defineUserConfig({
 
     host:'0.0.0.0',
     port:8081,
-    open:true,
+    open:false,
+
+    theme: defaultTheme({
+        locales: {
+            '/en/': {
+              selectLanguageName: 'English',
+              navbar:[
+                {
+                  text: 'DOCS',
+                  link: '/en/',
+                },
+              ],
+            },
+            '/zh/': {
+              selectLanguageName: '简体中文',
+              navbar:[
+                {
+                  text: '文档',
+                  link: '/zh/',
+                },
+              ],
+            },
+        }
+    })
 })
