@@ -43,6 +43,7 @@ export default defineUserConfig({
         darkMode:false,
         // 仓库地址
         repo:'https://github.com/alibaba/arthas',
+        sidebarDepth: 10,
         locales: {
             '/en/': {
               selectLanguageName: 'English',
@@ -65,6 +66,15 @@ export default defineUserConfig({
                     link: 'https://github.com/alibaba/arthas/issues',
                 },
               ],
+              sidebar:{
+                '/en/': [
+                    {
+                      text: '指南',
+                      collapsible: false,
+                      children: ['/en/auth.md', '/en/agent.md'],
+                    }
+                  ],
+              }  
             },
             '/zh/': {
               selectLanguageName: '简体中文',
