@@ -6,7 +6,7 @@ export default defineUserConfig({
   description: 'arthas 使用文档',
   base:"/",
   // https://v2.vuepress.vuejs.org/zh/reference/config.html#head
-  head:[['link', { rel: 'icon', href: '/arthas-log.png' }]],
+  head:[['link', { rel: 'icon', href: '/favicon.ico' }]],
   // 多语言配置
   locales:{
        '/en/': {
@@ -25,7 +25,7 @@ export default defineUserConfig({
     dest:'${sourceDir}/.vuepress/dist',
 
     // public 公共资源模块
-    public:'${sourceDir}/.vuepress/public',
+    //public:'${sourceDir}/.vuepress/public',
 
     debug : false,
 
@@ -37,9 +37,16 @@ export default defineUserConfig({
     open:false,
 
     theme: defaultTheme({
+        logo:'arthas.png',
+        logoDark:'arthas.png',
+        // 暗黑模式是否启用
+        darkMode:false,
+        // 仓库地址
+        repo:'https://github.com/alibaba/arthas',
         locales: {
             '/en/': {
               selectLanguageName: 'English',
+              // https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html#navbar
               navbar:[
                 {
                     text: 'HOME PAGE',
@@ -57,8 +64,6 @@ export default defineUserConfig({
                     text: 'COMMUNITY',
                     link: 'https://github.com/alibaba/arthas/issues',
                 },
-
-                
               ],
             },
             '/zh/': {
