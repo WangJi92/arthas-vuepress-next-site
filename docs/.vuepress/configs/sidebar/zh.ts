@@ -24,11 +24,12 @@ export const zh: SidebarConfig = {
                 '/doc/advanced-use.md',
                 {
                     text: '命令列表',
+                    collapsible: true,
                     link: '/doc/commands.md',
                     children: [
                         {
                             text: 'jvm相关',
-                            collapsible: true,
+                            collapsible: false,
                             children: [
                                 '/doc/dashboard.md',
                                 '/doc/thread.md',
@@ -48,7 +49,7 @@ export const zh: SidebarConfig = {
                         },
                         {
                             text: 'class/classloader相关',
-                            collapsible: true,
+                            collapsible: false,
                             children: [
                                 '/doc/sc.md',
                                 '/doc/sm.md',
@@ -62,7 +63,7 @@ export const zh: SidebarConfig = {
                         },
                         {
                             text: 'monitor/watch/trace相关',
-                            collapsible: true,
+                            collapsible: false,
                             children: [
                                 '/doc/monitor.md',
                                 '/doc/watch.md',
@@ -73,7 +74,7 @@ export const zh: SidebarConfig = {
                         },
                         {
                             text: '其他',
-                            collapsible: true,
+                            collapsible: false,
                             children: [
                                 '/doc/profiler.md',
                                 '/doc/cat.md',
@@ -88,7 +89,7 @@ export const zh: SidebarConfig = {
                         },
                         {
                             text: '基础命令',
-                            collapsible: true,
+                            collapsible: false,
                             children: [
                                 '/doc/help.md',
                                 '/doc/cls.md',
