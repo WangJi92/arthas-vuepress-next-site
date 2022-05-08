@@ -9,12 +9,12 @@ export default defineUserConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // 多语言配置
   locales: {
-    '/en-us/': {
+    '/doc/en/': {
       lang: 'en-US',
       title: 'arthas',
       description: 'arthas user document'
     },
-    '/zh-cn/': {
+    '/doc/': {
       lang: 'zh-CN',
       title: 'arthas',
       description: 'arthas 使用文档',
@@ -79,6 +79,11 @@ export default defineUserConfig({
         selectLanguageAriaLabel: '选择语言',
         backToHome: '返回首页'
       }
-    }
-  })
+    },
+    themePlugins: {
+      //不需要展示git 修改记录
+      git: false,
+      prismjs: false,
+    },
+  }),
 })

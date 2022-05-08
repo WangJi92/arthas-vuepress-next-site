@@ -7,7 +7,7 @@ export const en: NavbarConfig = [
     },
     {
         text: 'DOCS',
-        link: '/doc/en/',
+        link: '/doc/en/#contents',
     },
     {
         text: 'DOWNLOAD',

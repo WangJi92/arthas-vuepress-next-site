@@ -7,7 +7,7 @@ export const zh: NavbarConfig = [
     },
     {
         text: '文档',
-        link: '/doc/',
+        link: '/doc/#',
     },
     {
         text: '下载',
