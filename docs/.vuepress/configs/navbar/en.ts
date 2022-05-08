@@ -3,15 +3,15 @@ import type { NavbarConfig } from '@vuepress/theme-default'
 export const en: NavbarConfig = [
     {
         text: 'HOME PAGE',
-        link: '/en/',
+        link: '/en-us/',
     },
     {
         text: 'DOCS',
-        link: '/en/',
+        link: '/doc/en/',
     },
     {
         text: 'DOWNLOAD',
-        link: '/en/download',
+        link: '/doc/en/download.md',
     },
     {
         text: 'COMMUNITY',
