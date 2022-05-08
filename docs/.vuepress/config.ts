@@ -1,5 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
-
+import { navbar, sidebar } from './configs'
 export default defineUserConfig({
   lang: 'en-US',
   title: 'arthas',
@@ -48,54 +48,26 @@ export default defineUserConfig({
             '/en/': {
               selectLanguageName: 'English',
               // https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html#navbar
-              navbar:[
-                {
-                    text: 'HOME PAGE',
-                    link: '/en/',
-                },
-                {
-                  text: 'DOCS',
-                  link: '/en/',
-                },
-                {
-                    text: 'DOWNLOAD',
-                    link: '/en/download',
-                },
-                {
-                    text: 'COMMUNITY',
-                    link: 'https://github.com/alibaba/arthas/issues',
-                },
-              ],
-              sidebar:{
-                '/en/': [
-                    {
-                      text: '指南',
-                      collapsible: false,
-                      children: ['/en/auth.md', '/en/agent.md'],
-                    }
-                  ],
-              }  
+              navbar:navbar.en,
+              sidebar:sidebar.en,
             },
             '/zh/': {
               selectLanguageName: '简体中文',
-              navbar:[
-                {
-                    text: '首页',
-                    link: '/zh/',
-                },
-                {
-                  text: '文档',
-                  link: '/zh/',
-                },
-                {
-                    text: '下载',
-                    link: '/zh/download',
-                },
-                {
-                    text: '社区',
-                    link: 'https://github.com/alibaba/arthas/issues',
-                },
+              selectLanguageText: '选择语言',
+              selectLanguageAriaLabel: '选择语言',
+              navbar:navbar.zh,
+               // 404 page
+              notFound: [
+                '这里什么都没有',
+                '我们怎么到这来了？',
+                '这是一个 404 页面',
+                '看起来我们进入了错误的链接',
               ],
+              backToHome: '返回首页',
+              // a11y
+              openInNewWindow: '在新窗口打开',
+              toggleDarkMode: '切换夜间模式',
+              toggleSidebar: '切换侧边栏',
             },
         }
     })
