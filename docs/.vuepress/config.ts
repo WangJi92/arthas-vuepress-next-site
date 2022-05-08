@@ -43,7 +43,7 @@ export default defineUserConfig({
     darkMode: false,
     // 仓库地址
     repo: 'https://github.com/alibaba/arthas',
-    sidebarDepth: 10,
+    sidebarDepth: 30,
     locales: {
       '/en-us/': {
         selectLanguageName: 'English',
