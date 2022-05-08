@@ -35,7 +35,6 @@ export default defineUserConfig({
   host: '0.0.0.0',
   port: 8081,
   open: false,
-
   theme: defaultTheme({
     logo: 'arthas.png',
     logoDark: 'arthas.png',
@@ -43,7 +42,11 @@ export default defineUserConfig({
     darkMode: false,
     // 仓库地址
     repo: 'https://github.com/alibaba/arthas',
-    sidebarDepth: 30,
+    sidebarDepth: 10,
+
+    // 这里可以定制化github 编辑修改的地方
+    docsDir:"site",
+    docsBranch:"master",
     locales: {
       '/en-us/': {
         selectLanguageName: 'English',
