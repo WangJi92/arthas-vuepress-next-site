@@ -37,8 +37,8 @@ export default defineUserConfig({
   port: 8081,
   open: false,
   theme: defaultTheme({
-    logo: '/images/arthas.png',
-    logoDark: '/images/arthas.png',
+    logo: '/images/logo.png',
+    logoDark: '/images/logo.png',
     // 暗黑模式是否启用
     darkMode: false,
     // 仓库地址

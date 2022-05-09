@@ -3,7 +3,7 @@ import type { NavbarConfig } from '@vuepress/theme-default'
 export const zh: NavbarConfig = [
     {
         text: '首页',
-        link: '/zh-cn/',
+        link: '/',
     },
     {
         text: '文档',
