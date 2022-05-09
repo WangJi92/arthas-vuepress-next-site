@@ -5,8 +5,8 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'arthas',
   description: 'arthas 使用文档',
- // base: "/arthas-vuepress-next-site/",
-  base: "/",
+  base: "/arthas-vuepress-next-site/",
+ // base: "/",
   // https://v2.vuepress.vuejs.org/zh/reference/config.html#head
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // 多语言配置
