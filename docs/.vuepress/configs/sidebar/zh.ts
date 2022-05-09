@@ -14,7 +14,10 @@ export const zh: SidebarConfig = {
                     link: '/doc/README.md'
                 },
                 '/doc/quick-start.md',
-                //'/doc/arthas-tutorials.html',
+                {
+                    text: '在线教程(katacoda)',
+                    link: '/doc/arthas-tutorials.html?language=cn&id=arthas-basics'
+                },
                 {
                     text: '在线教程(阿里云)',
                     link: 'https://start.aliyun.com/handson-lab?category=arthas'
@@ -98,7 +101,10 @@ export const zh: SidebarConfig = {
                                 '/doc/history.md',
                                 '/doc/quit.md',
                                 '/doc/stop.md',
-                                '/doc/keymap.md',
+                                {
+                                    text: 'keymap',
+                                    link: '/doc/keymap.md'
+                                },
                             ],
                         },
                     ],

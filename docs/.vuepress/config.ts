@@ -1,4 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
+import { copyCodePlugin } from "vuepress-plugin-copy-code2";
 import { navbar, sidebar } from './configs'
 export default defineUserConfig({
   lang: 'en-US',
@@ -72,7 +73,8 @@ export default defineUserConfig({
           '这是一个 404 页面',
           '看起来我们进入了错误的链接',
         ],
-        backToHome: '返回首页'
+        backToHome: '返回首页',
+        
       },
       '/zh-cn/': {
         navbar: navbar.zh,
@@ -89,4 +91,12 @@ export default defineUserConfig({
       prismjs: false,
     },
   }),
+  plugins:[
+    copyCodePlugin({
+      showInMobile:false,
+      pure:true,
+      duration:0,
+      delay:0,
+    }),
+  ]
 })
