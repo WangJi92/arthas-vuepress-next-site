@@ -5,7 +5,8 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'arthas',
   description: 'arthas 使用文档',
-  base: "/arthas-vuepress-next-site/",
+ // base: "/arthas-vuepress-next-site/",
+  base: "/",
   // https://v2.vuepress.vuejs.org/zh/reference/config.html#head
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // 多语言配置
@@ -31,7 +32,7 @@ export default defineUserConfig({
   debug: false,
 
   // 页面md 路径信息
-  pagePatterns: ['**/*.md', '!.vuepress', '!node_modules'],
+ /// pagePatterns: ['**/*.md', '!.vuepress', '!node_modules'],
 
   host: '0.0.0.0',
   port: 8081,
