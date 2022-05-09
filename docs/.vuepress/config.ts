@@ -37,8 +37,8 @@ export default defineUserConfig({
   port: 8081,
   open: false,
   theme: defaultTheme({
-    logo: 'arthas.png',
-    logoDark: 'arthas.png',
+    logo: '/images/arthas.png',
+    logoDark: '/images/arthas.png',
     // 暗黑模式是否启用
     darkMode: false,
     // 仓库地址
@@ -82,16 +82,12 @@ export default defineUserConfig({
     copyCodePlugin({
       showInMobile:false,
       pure:true,
-      //duration:300,
-      //delay:30,
       locales:{
         '/':{
-          copy:"已复制到剪切板",
           hint:"复制代码"
           
         },
         '/en/':{ 
-          copy:"Success copied to clipboard",
           hint:"Copy code"
         }
       }
