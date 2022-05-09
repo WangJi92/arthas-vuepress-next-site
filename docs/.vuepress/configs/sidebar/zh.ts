@@ -121,7 +121,7 @@ export const zh: SidebarConfig = {
                 },
                 '/doc/faq.md',
                 {
-                    text: 'start me at github',
+                    text: 'Start me at github',
                     link: 'https://github.com/alibaba/arthas'
                 },
                 {
