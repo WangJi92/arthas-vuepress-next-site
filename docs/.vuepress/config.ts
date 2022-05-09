@@ -23,7 +23,7 @@ export default defineUserConfig({
   },
   //theme 主题配置
   //打包的目的地址
-  dest: '${sourceDir}/.vuepress/dist',
+  //dest: '${sourceDir}/.vuepress/dist',
 
   // public 公共资源模块
   //public:'${sourceDir}/.vuepress/public',
