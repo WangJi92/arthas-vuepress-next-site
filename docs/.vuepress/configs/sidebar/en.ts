@@ -14,10 +14,10 @@ export const en: SidebarConfig = {
                     link: '/en/doc/README.md'
                 },
                 '/en/doc/quick-start.md',
-                // {
-                //     text: 'Online tutorials(Recommend)',
-                //     link: '/doc/arthas-tutorials.html?language=en&id=arthas-basics'
-                // },
+                {
+                    text: 'Online tutorials(Recommend)',
+                    link: '/doc/arthas-tutorials.html?language=en&id=arthas-basics'
+                },
                 '/en/doc/install-detail.md',
                 '/en/doc/download.md',
                 '/en/doc/advanced-use.md',
