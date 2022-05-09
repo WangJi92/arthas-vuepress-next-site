@@ -1,121 +1,121 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
 
 export const en: SidebarConfig = {
-    '/doc/en': [
+    '/en/doc': [
         {
             text: 'DOCS',
             children: [
                 {
                     text: 'Home',
-                    link: '/en-us/'
+                    link: '/en/'
                 },
                 {
                     text: 'Introduction',
-                    link: '/doc/en/README.md'
+                    link: '/en/doc/README.md'
                 },
-                '/doc/en/quick-start.md',
+                '/en/doc/quick-start.md',
                 // {
                 //     text: 'Online tutorials(Recommend)',
                 //     link: '/doc/arthas-tutorials.html?language=en&id=arthas-basics'
                 // },
-                '/doc/en/eninstall-detail.md',
-                '/doc/en/download.md',
-                '/doc/en/advanced-use.md',
+                '/en/doc/install-detail.md',
+                '/en/doc/download.md',
+                '/en/doc/advanced-use.md',
                 {
                     text: 'Commands',
                     collapsible: true,
-                    link: '/doc/en/commands.md',
+                    link: '/en/doc/commands.md',
                     children: [
                         {
                             text: 'jvm',
                             collapsible: false,
                             children: [
-                                '/doc/en/dashboard.md',
-                                '/doc/en/thread.md',
-                                '/doc/en/jvm.md',
-                                '/doc/en/memory.md',
-                                '/doc/en/sysprop.md',
-                                '/doc/en/sysenv.md',
-                                '/doc/en/vmoption.md',
-                                '/doc/en/perfcounter.md',
-                                '/doc/en/logger.md',
-                                '/doc/en/mbean.md',
-                                '/doc/en/getstatic.md',
-                                '/doc/en/ognl.md',
-                                '/doc/en/heapdump.md',
-                                '/doc/en/vmtool.md',
+                                '/en/doc/dashboard.md',
+                                '/en/doc/thread.md',
+                                '/en/doc/jvm.md',
+                                '/en/doc/memory.md',
+                                '/en/doc/sysprop.md',
+                                '/en/doc/sysenv.md',
+                                '/en/doc/vmoption.md',
+                                '/en/doc/perfcounter.md',
+                                '/en/doc/logger.md',
+                                '/en/doc/mbean.md',
+                                '/en/doc/getstatic.md',
+                                '/en/doc/ognl.md',
+                                '/en/doc/heapdump.md',
+                                '/en/doc/vmtool.md',
                             ],
                         },
                         {
                             text: 'class/classloader',
                             collapsible: false,
                             children: [
-                                '/doc/en/sc.md',
-                                '/doc/en/sm.md',
-                                '/doc/en/jad.md',
-                                '/doc/en/classloader.md',
-                                '/doc/en/mc.md',
-                                '/doc/en/dump.md',
-                                '/doc/en/retransform.md',
-                                '/doc/en/redefine.md',
+                                '/en/doc/sc.md',
+                                '/en/doc/sm.md',
+                                '/en/doc/jad.md',
+                                '/en/doc/classloader.md',
+                                '/en/doc/mc.md',
+                                '/en/doc/dump.md',
+                                '/en/doc/retransform.md',
+                                '/en/doc/redefine.md',
                             ],
                         },
                         {
                             text: 'monitor/watch/trace - related',
                             collapsible: false,
                             children: [
-                                '/doc/en/monitor.md',
-                                '/doc/en/watch.md',
-                                '/doc/en/trace.md',
-                                '/doc/en/stack.md',
-                                '/doc/en/tt.md',
+                                '/en/doc/monitor.md',
+                                '/en/doc/watch.md',
+                                '/en/doc/trace.md',
+                                '/en/doc/stack.md',
+                                '/en/doc/tt.md',
                             ],
                         },
                         {
                             text: 'other',
                             collapsible: false,
                             children: [
-                                '/doc/en/profiler.md',
-                                '/doc/en/cat.md',
-                                '/doc/en/echo.md',
-                                '/doc/en/grep.md',
-                                '/doc/en/base64.md',
-                                '/doc/en/tee.md',
-                                '/doc/en/pwd.md',
-                                '/doc/en/auth.md',
-                                '/doc/en/options.md',
+                                '/en/doc/profiler.md',
+                                '/en/doc/cat.md',
+                                '/en/doc/echo.md',
+                                '/en/doc/grep.md',
+                                '/en/doc/base64.md',
+                                '/en/doc/tee.md',
+                                '/en/doc/pwd.md',
+                                '/en/doc/auth.md',
+                                '/en/doc/options.md',
                             ],
                         },
                         {
                             text: 'Basic',
                             collapsible: false,
                             children: [
-                                '/doc/en/help.md',
-                                '/doc/en/cls.md',
-                                '/doc/en/session.md',
-                                '/doc/en/reset.md',
-                                '/doc/en/history.md',
-                                '/doc/en/quit.md',
-                                '/doc/en/stop.md',
+                                '/en/doc/help.md',
+                                '/en/doc/cls.md',
+                                '/en/doc/session.md',
+                                '/en/doc/reset.md',
+                                '/en/doc/history.md',
+                                '/en/doc/quit.md',
+                                '/en/doc/stop.md',
                                 {
                                     text: 'keymap',
-                                    link: '/doc/en/keymap.md'
+                                    link: '/en/doc/keymap.md'
                                 },
                             ],
                         },
                     ],
                 },
-                '/doc/en/web-console.md',
-                '/doc/en/tunnel.md',
-                '/doc/en/http-api.md',
-                '/doc/en/docker.md',
-                '/doc/en/spring-boot-starter.md',
-                '/doc/en/idea-plugin.md',
+                '/en/doc/web-console.md',
+                '/en/doc/tunnel.md',
+                '/en/doc/http-api.md',
+                '/en/doc/docker.md',
+                '/en/doc/spring-boot-starter.md',
+                '/en/doc/idea-plugin.md',
                 {
                     text: 'User cases',
                     link: 'https://github.com/alibaba/arthas/issues?q=label%3Auser-case'
                 },
-                '/doc/en/faq.md',
+                '/en/doc/faq.md',
                 {
                     text: 'start me at github',
                     link: 'https://github.com/alibaba/arthas'
@@ -130,7 +130,7 @@ export const en: SidebarConfig = {
                 },
                 {
                     text: 'Contact us',
-                    link: '/doc/en/contact-us.md'
+                    link: '/en/doc/contact-us.md'
                 },
             ],
 

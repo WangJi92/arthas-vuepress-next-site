@@ -10,12 +10,12 @@ export default defineUserConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // 多语言配置
   locales: {
-    '/doc/en/': {
+    '/en/': {
       lang: 'en-US',
       title: 'arthas',
       description: 'arthas user document'
     },
-    '/doc/': {
+    '/': {
       lang: 'zh-CN',
       title: 'arthas',
       description: 'arthas 使用文档',
@@ -43,24 +43,19 @@ export default defineUserConfig({
     darkMode: false,
     // 仓库地址
     repo: 'https://github.com/alibaba/arthas',
-    sidebarDepth: 10,
+    sidebarDepth: 5,
 
     // 这里可以定制化github 编辑修改的地方
     docsDir:"site",
     docsBranch:"master",
     locales: {
-      '/en-us/': {
-        selectLanguageName: 'English',
-        navbar: navbar.en,
-        sidebar:false
-      },
-      '/doc/en/': {
+      '/en/': {
         selectLanguageName: 'English',
         // https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html#navbar
         navbar: navbar.en,
         sidebar: sidebar.en,
       },
-      '/doc/': {
+      '/': {
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
         selectLanguageAriaLabel: '选择语言',
@@ -75,14 +70,6 @@ export default defineUserConfig({
         ],
         backToHome: '返回首页',
         
-      },
-      '/zh-cn/': {
-        navbar: navbar.zh,
-        sidebar:false ,
-        selectLanguageName: '简体中文',
-        selectLanguageText: '选择语言',
-        selectLanguageAriaLabel: '选择语言',
-        backToHome: '返回首页'
       }
     },
     themePlugins: {

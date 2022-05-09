@@ -7,7 +7,7 @@ export const zh: SidebarConfig = {
             children: [
                 {
                     text: '首页',
-                    link: '/zh-cn'
+                    link: '/'
                 },
                 {
                     text: '介绍',
