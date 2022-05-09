@@ -82,8 +82,19 @@ export default defineUserConfig({
     copyCodePlugin({
       showInMobile:false,
       pure:true,
-      duration:0,
-      delay:0,
+      //duration:300,
+      //delay:30,
+      locales:{
+        '/':{
+          copy:"已复制到剪切板",
+          hint:"复制代码"
+          
+        },
+        '/en/':{ 
+          copy:"Success copied to clipboard",
+          hint:"Copy code"
+        }
+      }
     }),
   ]
 })
