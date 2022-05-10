@@ -1,6 +1,6 @@
 import { defaultTheme, defineUserConfig, Page } from 'vuepress'
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
-//import {searchPlugin} from "@vuepress/plugin-search";
+import {searchPlugin} from "@vuepress/plugin-search";
 import { navbar, sidebar } from './configs'
 export default defineUserConfig({
   lang: 'en-US',
@@ -94,17 +94,17 @@ export default defineUserConfig({
         }
       }
     }),
-    // searchPlugin({
-    //   locales:{
-    //     "/":{
-    //       placeholder:'搜索'
-    //     },
-    //     "/en/":{
-    //       placeholder:"Search"
-    //     }
-    //   },
-    //   maxSuggestions:10,
-    //   isSearchable: (page) => page.path !== '/' && page.path !== '/en/'
-    // })
+    searchPlugin({
+      locales:{
+        "/":{
+          placeholder:'搜索'
+        },
+        "/en/":{
+          placeholder:"Search"
+        }
+      },
+      maxSuggestions:10,
+      isSearchable: (page) => page.path !== '/' && page.path !== '/en/'
+    })
   ]
 })
