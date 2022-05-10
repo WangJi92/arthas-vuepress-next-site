@@ -22,6 +22,29 @@ export const en: SidebarConfig = {
                 '/en/doc/download.md',
                 '/en/doc/advanced-use.md',
                 {
+                    text: 'Other features',
+                    collapsible: true,
+                    children:[
+                        '/en/doc/async.md',
+                        '/en/doc/save-log.md',
+                        '/en/doc/batch-support.md',
+                        {
+                            text:"How to use ognl",
+                            link:"",
+                            children:[
+                                {
+                                    text:"Basic ognl example",
+                                    link:"https://github.com/alibaba/arthas/issues/11"
+                                },
+                                {
+                                    text:"Ognl special uses",
+                                    link:"https://github.com/alibaba/arthas/issues/71"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     text: 'Commands',
                     collapsible: true,
                     link: '/en/doc/commands.md',

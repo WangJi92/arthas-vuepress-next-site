@@ -26,6 +26,28 @@ export const zh: SidebarConfig = {
                 '/doc/download.md',
                 '/doc/advanced-use.md',
                 {
+                    text: '其他特性',
+                    children:[
+                        '/doc/async.md',
+                        '/doc/save-log.md',
+                        '/doc/batch-support.md',
+                        {
+                            text:"ognl 表达式用法",
+                            link:"",
+                            children:[
+                                {
+                                    text:"活用ognl表达式",
+                                    link:"https://github.com/alibaba/arthas/issues/11"
+                                },
+                                {
+                                    text:"一些ognl特殊用法",
+                                    link:"https://github.com/alibaba/arthas/issues/71"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     text: '命令列表',
                     collapsible: true,
                     link: '/doc/commands.md',
