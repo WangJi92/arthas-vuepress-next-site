@@ -1,15 +1,18 @@
 import { defaultTheme, defineUserConfig, Page } from 'vuepress'
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
-import {searchPlugin} from "@vuepress/plugin-search";
+import { searchPlugin } from "@vuepress/plugin-search";
 import { navbar, sidebar } from './configs'
 export default defineUserConfig({
   lang: 'en-US',
   title: 'arthas',
   description: 'arthas 使用文档',
   base: "/arthas-vuepress-next-site/",
- // base: "/",
+  // base: "/",
   // https://v2.vuepress.vuejs.org/zh/reference/config.html#head
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/images/favicon.ico' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+  ],
   // 多语言配置
   locales: {
     '/en/': {
@@ -33,7 +36,7 @@ export default defineUserConfig({
   debug: false,
 
   // 页面md 路径信息
- /// pagePatterns: ['**/*.md', '!.vuepress', '!node_modules'],
+  /// pagePatterns: ['**/*.md', '!.vuepress', '!node_modules'],
 
   host: '0.0.0.0',
   port: 8081,
@@ -48,8 +51,8 @@ export default defineUserConfig({
     sidebarDepth: 5,
 
     // 这里可以定制化github 编辑修改的地方
-    docsDir:"site",
-    docsBranch:"master",
+    docsDir: "site",
+    docsBranch: "master",
     locales: {
       '/en/': {
         selectLanguageName: 'English',
@@ -71,7 +74,7 @@ export default defineUserConfig({
           '看起来我们进入了错误的链接',
         ],
         backToHome: '返回首页',
-        
+
       }
     },
     themePlugins: {
@@ -80,30 +83,30 @@ export default defineUserConfig({
       prismjs: false,
     },
   }),
-  plugins:[
+  plugins: [
     copyCodePlugin({
-      showInMobile:false,
-      pure:true,
-      locales:{
-        '/':{
-          hint:"复制代码"
-          
+      showInMobile: false,
+      pure: true,
+      locales: {
+        '/': {
+          hint: "复制代码"
+
         },
-        '/en/':{ 
-          hint:"Copy code"
+        '/en/': {
+          hint: "Copy code"
         }
       }
     }),
     searchPlugin({
-      locales:{
-        "/":{
-          placeholder:'搜索'
+      locales: {
+        "/": {
+          placeholder: '搜索'
         },
-        "/en/":{
-          placeholder:"Search"
+        "/en/": {
+          placeholder: "Search"
         }
       },
-      maxSuggestions:10,
+      maxSuggestions: 10,
       isSearchable: (page) => page.path !== '/' && page.path !== '/en/'
     })
   ]
