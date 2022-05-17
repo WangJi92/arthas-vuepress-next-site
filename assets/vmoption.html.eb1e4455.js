@@ -1,0 +1,1 @@
+const t={key:"v-40db67fd",path:"/doc/vmoption.html",title:"vmoption",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:3,title:"\u4F7F\u7528\u53C2\u8003",slug:"\u4F7F\u7528\u53C2\u8003",children:[]}],filePathRelative:"doc/vmoption.md"};export{t as data};

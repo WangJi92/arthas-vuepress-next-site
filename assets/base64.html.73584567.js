@@ -1,0 +1,11 @@
+import{_ as e,e as a}from"./app.1edb3735.js";const s={},n=a(`<h1 id="base64" tabindex="-1"><a class="header-anchor" href="#base64" aria-hidden="true">#</a> base64</h1><blockquote><p>Encode and decode using Base64 representation.</p></blockquote><h3 id="encode-to-base64" tabindex="-1"><a class="header-anchor" href="#encode-to-base64" aria-hidden="true">#</a> Encode to base64</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>[arthas@70070]$ echo &#39;abc&#39; &gt; /tmp/test.txt
+[arthas@70070]$ cat /tmp/test.txt
+abc
+
+[arthas@70070]$ base64 /tmp/test.txt
+YWJjCg==
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="encode-to-base64-and-save-output-to-file" tabindex="-1"><a class="header-anchor" href="#encode-to-base64-and-save-output-to-file" aria-hidden="true">#</a> Encode to base64 and save output to file</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>$ base64 --input /tmp/test.txt --output /tmp/result.txt
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="decode-from-base64" tabindex="-1"><a class="header-anchor" href="#decode-from-base64" aria-hidden="true">#</a> Decode from base64</h3><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>$ base64 -d /tmp/result.txt
+abc
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="decode-from-base64-and-save-output-to-file" tabindex="-1"><a class="header-anchor" href="#decode-from-base64-and-save-output-to-file" aria-hidden="true">#</a> Decode from base64 and save output to file</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>$ base64 -d /tmp/result.txt --output /tmp/bbb.txt
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div>`,10);function t(r,d){return n}var c=e(s,[["render",t],["__file","base64.html.vue"]]);export{c as default};

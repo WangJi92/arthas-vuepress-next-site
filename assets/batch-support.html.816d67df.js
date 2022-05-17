@@ -1,0 +1,1 @@
+const e={key:"v-765e30be",path:"/en/doc/batch-support.html",title:"Batch Processing",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Usage",slug:"usage",children:[]}],filePathRelative:"en/doc/batch-support.md"};export{e as data};

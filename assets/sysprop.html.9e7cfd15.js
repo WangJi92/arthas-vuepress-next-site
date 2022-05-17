@@ -1,0 +1,1 @@
+const e={key:"v-1f738fad",path:"/en/doc/sysprop.html",title:"sysprop",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Usage",slug:"usage",children:[]}],filePathRelative:"en/doc/sysprop.md"};export{e as data};

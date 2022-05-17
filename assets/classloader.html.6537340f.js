@@ -1,0 +1,1 @@
+const e={key:"v-49b1709e",path:"/doc/classloader.html",title:"classloader",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:3,title:"\u53C2\u6570\u8BF4\u660E",slug:"\u53C2\u6570\u8BF4\u660E",children:[]},{level:3,title:"\u4F7F\u7528\u53C2\u8003",slug:"\u4F7F\u7528\u53C2\u8003",children:[]}],filePathRelative:"doc/classloader.md"};export{e as data};

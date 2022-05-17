@@ -1,0 +1,1 @@
+const e={key:"v-5ae8aed9",path:"/doc/logger.html",title:"logger",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:3,title:"\u4F7F\u7528\u53C2\u8003",slug:"\u4F7F\u7528\u53C2\u8003",children:[]}],filePathRelative:"doc/logger.md"};export{e as data};

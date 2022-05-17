@@ -1,0 +1,1 @@
+const e={key:"v-46e53834",path:"/doc/advice-class.html",title:"\u8868\u8FBE\u5F0F\u6838\u5FC3\u53D8\u91CF",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],filePathRelative:"doc/advice-class.md"};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-7a8b0c34",path:"/en/doc/help.html",title:"help",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Options",slug:"options",children:[]},{level:3,title:"Usage",slug:"usage",children:[]}],filePathRelative:"en/doc/help.md"};export{e as data};

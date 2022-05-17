@@ -1,0 +1,1 @@
+const e={key:"v-28022d85",path:"/en/doc/sc.html",title:"sc",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Supported Options",slug:"supported-options",children:[]},{level:3,title:"Usage",slug:"usage",children:[]}],filePathRelative:"en/doc/sc.md"};export{e as data};

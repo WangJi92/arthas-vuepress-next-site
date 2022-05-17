@@ -1,0 +1,1 @@
+const e={key:"v-b75a107e",path:"/doc/stack.html",title:"stack",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:3,title:"\u53C2\u6570\u8BF4\u660E",slug:"\u53C2\u6570\u8BF4\u660E",children:[]},{level:3,title:"\u4F7F\u7528\u4F8B\u5B50",slug:"\u4F7F\u7528\u4F8B\u5B50",children:[]}],filePathRelative:"doc/stack.md"};export{e as data};

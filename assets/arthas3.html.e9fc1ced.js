@@ -1,0 +1,1 @@
+const t={key:"v-02eb6d0d",path:"/doc/arthas3.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:3,title:"Arthas3.0\u7684\u65B0\u7279\u6027",slug:"arthas3-0\u7684\u65B0\u7279\u6027",children:[]},{level:3,title:"\u53BBgroovy\u4F9D\u8D56",slug:"\u53BBgroovy\u4F9D\u8D56",children:[]}],filePathRelative:"doc/arthas3.md"};export{t as data};

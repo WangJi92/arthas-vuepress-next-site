@@ -1,0 +1,1 @@
+const t={key:"v-37178538",path:"/doc/agent.html",title:"\u4EE5Java Agent\u7684\u65B9\u5F0F\u542F\u52A8",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],filePathRelative:"doc/agent.md"};export{t as data};

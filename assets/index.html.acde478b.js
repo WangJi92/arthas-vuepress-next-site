@@ -1,0 +1,1 @@
+const e={key:"v-07555a84",path:"/en/doc/",title:"Arthas Documentation",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Background",slug:"background",children:[]},{level:3,title:"Key features",slug:"key-features",children:[]},{level:2,title:"Contents",slug:"contents",children:[]}],filePathRelative:"en/doc/index.md"};export{e as data};

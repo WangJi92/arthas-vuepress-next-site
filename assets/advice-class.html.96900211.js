@@ -1,0 +1,1 @@
+const e={key:"v-a736375c",path:"/en/doc/advice-class.html",title:"Fundamental Fields in Expressions",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"en/doc/advice-class.md"};export{e as data};

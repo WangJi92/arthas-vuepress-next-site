@@ -1,0 +1,7 @@
+import{_ as e,e as s}from"./app.1edb3735.js";const n={},a=s(`<h1 id="session" tabindex="-1"><a class="header-anchor" href="#session" aria-hidden="true">#</a> session</h1><p>\u67E5\u770B\u5F53\u524D\u4F1A\u8BDD\u7684\u4FE1\u606F\uFF0C\u663E\u793A\u5F53\u524D\u7ED1\u5B9A\u7684pid\u4EE5\u53CA\u4F1A\u8BDDid\u3002</p><blockquote><p>\u5982\u679C\u914D\u7F6E\u4E86tunnel server\uFF0C\u4F1A\u8FFD\u52A0\u6253\u5370 \u4EE3\u7406id\u3001tunnel\u670D\u52A1\u5668\u7684url\u4EE5\u53CA\u8FDE\u63A5\u72B6\u6001\u3002</p><p>\u5982\u679C\u4F7F\u7528\u4E86staturl\u505A\u7EDF\u8BA1\uFF0C\u4F1A\u8FFD\u52A0\u663E\u793AstatUrl\u5730\u5740\u3002</p></blockquote><h3 id="\u4F7F\u7528\u53C2\u8003" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528\u53C2\u8003" aria-hidden="true">#</a> \u4F7F\u7528\u53C2\u8003</h3><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>$ session
+  Name        Value
+--------------------------------------------------
+ JAVA_PID    14584
+ SESSION_ID  c2073d3b-443a-4a9b-9249-0c5d24a5756c
+ 
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div>`,5);function r(i,t){return a}var c=e(n,[["render",r],["__file","session.html.vue"]]);export{c as default};

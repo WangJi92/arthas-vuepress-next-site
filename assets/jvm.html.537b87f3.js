@@ -1,0 +1,1 @@
+const e={key:"v-f28c1148",path:"/en/doc/jvm.html",title:"jvm",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Usage",slug:"usage",children:[]},{level:3,title:"Thread related",slug:"thread-related",children:[]},{level:3,title:"File descriptor related",slug:"file-descriptor-related",children:[]}],filePathRelative:"en/doc/jvm.md"};export{e as data};

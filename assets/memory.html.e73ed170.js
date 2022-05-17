@@ -1,0 +1,1 @@
+const e={key:"v-3f212774",path:"/en/doc/memory.html",title:"memory",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Usage",slug:"usage",children:[]}],filePathRelative:"en/doc/memory.md"};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-5ed4d0e1",path:"/doc/commands.html",title:"\u547D\u4EE4\u5217\u8868",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:3,title:"Arthas \u57FA\u7840\u547D\u4EE4",slug:"arthas-\u57FA\u7840\u547D\u4EE4",children:[]}],filePathRelative:"doc/commands.md"};export{e as data};

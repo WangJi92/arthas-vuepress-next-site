@@ -1,0 +1,3 @@
+import{_ as e,e as a}from"./app.1edb3735.js";const s={},r=a(`<h1 id="version" tabindex="-1"><a class="header-anchor" href="#version" aria-hidden="true">#</a> version</h1><p>prints out Arthas&#39;s version.</p><h3 id="usage" tabindex="-1"><a class="header-anchor" href="#usage" aria-hidden="true">#</a> Usage</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>$ version
+ 3.5.1
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div>`,4);function n(i,d){return r}var c=e(s,[["render",n],["__file","version.html.vue"]]);export{c as default};

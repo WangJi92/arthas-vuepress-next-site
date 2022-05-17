@@ -1,0 +1,1 @@
+const e={key:"v-50ef0261",path:"/en/doc/save-log.html",title:"Log command outputs",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Use asynchronous job to log",slug:"use-asynchronous-job-to-log",children:[]}],filePathRelative:"en/doc/save-log.md"};export{e as data};

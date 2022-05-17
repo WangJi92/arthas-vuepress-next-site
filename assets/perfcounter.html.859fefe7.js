@@ -1,0 +1,1 @@
+const e={key:"v-6746784a",path:"/en/doc/perfcounter.html",title:"perfcounter",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Usage",slug:"usage",children:[]},{level:3,title:"JVM above JDK9",slug:"jvm-above-jdk9",children:[]}],filePathRelative:"en/doc/perfcounter.md"};export{e as data};
